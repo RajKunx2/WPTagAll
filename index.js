@@ -15,7 +15,6 @@ client.on("qr", (qr) => {
   client.new = true;
 });
 
-// Save session values to the file upon successful auth
 client.on("authenticated", (session) => {
   console.log("AUTHENTICATED.");
 });
